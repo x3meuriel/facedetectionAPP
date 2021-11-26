@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Feel} from './components/Signin/Feel'
+// import {Feel} from './components/Signin/Feel'
 import Particles from 'react-particles-js';
 import {Navigation} from './components/Navigation/navigation';
 import {Logo} from './components/Logo/Logo';
@@ -154,7 +154,7 @@ class App extends Component {
     const {isSignedIn,box,route,imageUrl, user} = this.state
     return ( 
       <div className="App">
-        <Feel />
+        {/* <Feel /> */}
         <Particles className= 'particles'
           params={{
             "particles": {
